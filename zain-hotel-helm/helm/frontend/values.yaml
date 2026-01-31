@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: eslamzain99/zain-hotel-frontend
+  tag: latest
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 80
